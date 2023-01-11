@@ -1,0 +1,17 @@
+.homes {
+  grid-column: center-start / center-end;
+  margin: 5rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  // grid-template-rows: repeat();
+  gap: 3rem;
+
+  // Testing
+  padding: 40px;
+  font-size: 3rem;
+}
+
+.home {
+  background-color: $color-grey-light-1;
+}
